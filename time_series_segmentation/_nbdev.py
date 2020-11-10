@@ -2,9 +2,9 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"get_liverpool_ion_data": "00_ingest_data.ipynb"}
+index = {"get_liverpool_ion_data": "00_data.ipynb"}
 
-modules = ["ingest_data.py"]
+modules = ["data.py"]
 
 doc_url = "https://ImmoNathanael.github.io/time_series_segmentation/"
 
