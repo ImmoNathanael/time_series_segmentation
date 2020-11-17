@@ -11,7 +11,7 @@ entries:
       url: /
     - output: web,pdf
       title: Ingest and prepare data
-      url: ingest_data.html
+      url: data.html
     output: web
     title: time_series_segmentation
   output: web
