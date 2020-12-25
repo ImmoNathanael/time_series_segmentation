@@ -2,9 +2,12 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"get_liverpool_ion_data": "00_data.ipynb"}
+index = {"get_liverpool_ion_data": "00_data.ipynb",
+         "add_seq_indicator": "01_feature_eng.ipynb",
+         "dataframe_split": "01_feature_eng.ipynb"}
 
-modules = ["data.py"]
+modules = ["data.py",
+           "feature_eng.py"]
 
 doc_url = "https://ImmoNathanael.github.io/time_series_segmentation/"
 

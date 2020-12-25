@@ -7,7 +7,7 @@ import pandas as pd
 import os
 
 from zipfile import ZipFile
-from nbdev.showdoc import *
+from fastcore.test import *
 
 # Cell
 def get_liverpool_ion_data():
