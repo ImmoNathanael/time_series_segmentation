@@ -7,7 +7,9 @@ index = {"get_liverpool_ion_data": "00_data.ipynb",
          "dataframe_split": "01_feature_eng.ipynb",
          "feature_engineering_std": "01_feature_eng.ipynb",
          "feature_engineering_mean": "01_feature_eng.ipynb",
-         "feature_engineering_drift": "01_feature_eng.ipynb"}
+         "feature_engineering_drift": "01_feature_eng.ipynb",
+         "get_features_basic": "01_feature_eng.ipynb",
+         "label_smoothing": "01_feature_eng.ipynb"}
 
 modules = ["data.py",
            "feature_eng.py"]
