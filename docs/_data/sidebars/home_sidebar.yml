@@ -12,6 +12,9 @@ entries:
     - output: web,pdf
       title: Ingest and prepare data
       url: data.html
+    - output: web,pdf
+      title: Feature engineering
+      url: feature_eng.html
     output: web
     title: time_series_segmentation
   output: web

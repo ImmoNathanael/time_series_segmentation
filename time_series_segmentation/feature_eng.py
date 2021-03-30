@@ -115,8 +115,9 @@ def get_features_basic(data):
     data.loc[:,'new_mean'] = feature_engineering_mean(data,'signal', span=10)
     data.loc[:,'std_long'] = feature_engineering_std(data, 'new_mean', span=1000)
     data.loc[:,'no_drift'] = feature_engineering_drift(data,'signal', span=1000)
+    data.loc[:,'opt'] = (data.loc[:,'no_drift']+(8*data.loc[:,'std_long']))
 
-    return data['no_drift'], data['std_long'], (data['no_drift']+(8*data['std_long']))
+    return data
 
 # Cell
 def label_smoothing(data, data_cat_label, eps=0.1):
